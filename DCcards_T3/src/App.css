@@ -1,0 +1,71 @@
+body{
+	margin:0;
+	font-family:'poppins', sans-serif;
+}
+nav{
+	
+	display:flex;
+	flex-flow:row wrap;
+	background-color:#eddf5c;
+	box-shadow: 1px 3px  #888888;
+
+}
+.Navbar_logo{
+		height:90px;
+		padding: 30px 40px;
+		
+}
+
+.Navbar_text{
+		font-size: 50px;
+		color:#5c0d05;
+		
+}
+section{
+	padding:20px;
+}
+
+.hero{
+	display:flex;
+	flex-direction:column;
+}
+.JLTeam_Logo{
+	max-width: 900px;
+	align-self:center;
+}
+.hero_header{
+	margin-bottom:16px;
+}
+.hero_text{
+	margin-top:0;
+}
+.cards{
+	display:flex;
+	padding:10px;
+}
+.card_section{
+	margin-left:40px;
+	width:200px;
+	padding:5px;
+	font-size:15px;
+	border-color:#06c920;
+	border-radius:10px;
+	border-style: outset;
+}
+.card_image{
+	width:100%;
+	height:50%;
+}
+.card_stats{
+	display:flex;
+}
+.rating_star{
+	width:40%;
+}
+.gray{
+	color:#7a7676;
+}
+.card_title{
+	font-weight:bold;
+	text-align:center;
+}
