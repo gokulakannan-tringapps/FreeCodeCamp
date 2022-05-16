@@ -40,6 +40,37 @@ main{
 		margin-left:15px;
 }
 .memeOutput{
-		max-height:50%;
+		width:60%;
+		border-style: solid;
+  		border-width: thin;
+		position: relative;
 
+}
+.memeImage{
+	position: relative;
+	width:60%;
+	margin-left: 20%;
+	
+}
+.memeToptext{
+	position:absolute;
+	overflow-wrap: break-word;
+	width:50%;
+	top:0px;
+	left: 20%;
+	color:#f7bf07;	
+	text-shadow: 1px 1px #161615;
+	font-weight: bold;
+	font-size: 20px;
+}
+.memeBottomtext{
+	position:absolute;
+	width:60%;
+	bottom:1px;
+	left: 20%;
+	color:#f7bf07;
+	font-weight: bold;
+	text-shadow: 1px 1px #131212;
+	font-size: 20px;
+	overflow-wrap: break-word;
 }
