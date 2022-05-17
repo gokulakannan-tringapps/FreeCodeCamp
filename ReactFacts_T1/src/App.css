@@ -1,0 +1,51 @@
+header{
+  display:block;
+  background-color: #151716;
+}
+.nav{
+    padding: 1%;
+    margin-left: 2%;
+    display:flex;    
+}
+.title1{
+  color:rgb(107, 219, 210);
+  font-size: 31px;
+}
+.title2{
+  color:whitesmoke;
+  font-size: 31px;
+  margin-left:40%;
+}
+.mainContent{
+    background-color:#353635;
+    width:100%;
+    display:inline-block;
+    background-image: url(./logo.svg);
+    background-repeat: no-repeat;
+    background-position-x: right ;
+}
+.factslist {
+  list-style: none; 
+  color:whitesmoke;
+  padding:15px;
+  font-size:20px;
+  margin-left: 1%;
+}
+.factslist > li{
+  padding:24px;
+}
+
+.factslist > li::before {
+  content: "\2022";  
+  color: rgb(107, 219, 210); 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 2em; 
+  margin-left: -1em; 
+}
+h2{
+  color:whitesmoke;
+  margin-left:25px; 
+  font-size:40px;
+}
+
