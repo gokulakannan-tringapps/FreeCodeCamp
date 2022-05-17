@@ -1,0 +1,53 @@
+body{
+  margin:0;
+  background-color:#0a1878;
+  padding:43px;
+}
+main{
+    background-color: darkgoldenrod;
+    height:490px;
+    max-width:2000px;
+    border-radius: 8px;
+    padding:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.dice_board{
+    display:grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap:70px;
+}
+.dice_layout{
+  height:60px;
+  width:60px;
+  box-shadow: 2px 8px 8px #0a1878;
+  background-color: #c88cd1;
+  color:#fa162d;
+  font-size: 45px;
+  border-radius: 10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.rollButton{
+  padding:10px;
+  margin-top: 40px;
+  width:17%;
+  font-size: 25px;
+  color:ghostwhite;
+  background-color:rgb(48, 45, 45);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.title{
+  color:aliceblue;
+  text-shadow:2px 4px #fa162d;
+  font-size: 60px;
+}
+.instruction{
+  font-size:25px;
+}
