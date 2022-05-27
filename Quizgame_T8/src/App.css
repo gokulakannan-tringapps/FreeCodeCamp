@@ -1,0 +1,69 @@
+.App{
+    display:flex;
+    flex-direction: column;
+ 
+}
+.Questions{
+    color:black;
+    padding-left: 5%;
+    font-weight: 700;
+}
+.Options{
+    display: flex;
+    margin: 2%;
+   
+}
+.Options > button {
+    margin-left: 5%;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #0f3ea3;
+    border-style: solid;
+    background-color: #c3c6c9;
+    cursor:pointer;
+    
+}
+.Options > p{
+    margin-left: 5%;
+    color:green;
+}
+
+.WelcomeBtn {
+    margin-top: 3%;
+    padding: 20px;
+    width:17%;
+    background-color:aqua;
+}
+.Welcome{
+    font-size: 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    
+    
+}
+body{
+    background-color: #c3c6c9;
+}
+
+.loading{
+    display: flex;
+    justify-content:center;
+    margin-top: 25%;
+    font-size: 50px;
+    font-weight: 800;
+    color:crimson;
+}
+
+.submit{
+    background-color: aqua;
+    width:15%;
+    padding:5px;
+    border-radius: 5%;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom:5%;
+    cursor: pointer;
+}
